@@ -3,7 +3,6 @@ import { galleryItems } from './gallery-items.js';
 
 
 // Change code below this line
-console.log(galleryItems);
 const refGallery = document.querySelector('.gallery');
 const innerHTML = renderGalleryItems(galleryItems)
 
@@ -21,7 +20,7 @@ var lightbox = new SimpleLightbox('.gallery a', {
     captionsData: `alt`,
     captionDelay: 250
   });
-console.log(lightbox);
+
 
 
 
